@@ -316,6 +316,7 @@ footer {
 @media (min-width: 440px) {
     #lista a {
         font-size: 5vw;
+        color: red;
     }
 
 }
@@ -339,7 +340,6 @@ footer {
         padding: 0.5em;
         font-size: 3.5vw;
         margin-bottom: 0;
-        color: red;
     }
 
     #LOGO {
