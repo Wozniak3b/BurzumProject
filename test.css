@@ -307,3 +307,5 @@ footer {
     color: #fff;
     font-weight: bold;
 }
+
+@media (min-width: 640px) {}
