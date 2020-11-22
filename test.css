@@ -344,3 +344,23 @@ footer {
         display: block;
     }
 }
+
+@media (min-width: 1024px) {
+    #lista {
+        display: flex;
+    }
+
+    #lista ul {
+        width: 40%;
+        justify-content: space-between;
+    }
+
+    #lista a {
+        font-size: 1.4vw;
+    }
+
+    #LOGO {
+        width: 33vw;
+    }
+
+}
