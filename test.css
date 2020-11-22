@@ -39,7 +39,6 @@ body {
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    /* margin-top: 4em; */
 }
 
 .container1 {
@@ -340,6 +339,7 @@ footer {
         padding: 0.5em;
         font-size: 3.5vw;
         margin-bottom: 0;
+        color: red;
     }
 
     #LOGO {
