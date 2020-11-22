@@ -105,7 +105,7 @@ ul a {
 }
 
 .container2 {
-
+    display: flex;
     width: 100%;
     /* siemandero musisz to zmienic */
     justify-content: center;
