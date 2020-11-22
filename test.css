@@ -74,15 +74,14 @@ figure img {
     width: 100%;
 }
 
-#LOGO {
+/* #LOGO {
     width: 33vw;
-}
+} */
 
 ul a {
     display: block;
     text-decoration: none;
     color: #fff;
-    font-size: 1.4vw;
     font-weight: bold;
     font-family: GregorianFLF;
     background-color: rgba(12, 12, 12, 0.65);
@@ -98,10 +97,17 @@ ul a {
 }
 
 #lista ul {
-    display: flex;
-    width: 40%;
+    /* display: flex; */
+    /* width: 40%; */
     list-style: none;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+}
+
+#lista a {
+    width: 100em;
+    margin-bottom: 0.3em;
+    padding: 1em;
+    font-size: 7vw;
 }
 
 .container2 {
@@ -128,6 +134,7 @@ nav ul {
 nav>ul a {
     width: 6em;
     background-color: rgba(63, 63, 63, 0.1);
+    font-size: 1.4vw;
 }
 
 a:hover {
