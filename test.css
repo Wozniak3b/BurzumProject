@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'OldLondon';
-    src: url('fonts/OldLondon.ttf') format('truetype');
+    font-family: 'old_londonregular';
+    src: url('fonts/old_london-webfont.woff2') format('woff2');
     font-family: 'ChakraPetchRegular';
     src: url('fonts/ChakraPetchRegular.ttf') format('truetype');
 
@@ -82,7 +82,7 @@ ul a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
-    font-family: OldLondon;
+    font-family: "old_londonregular";
     background-color: rgba(12, 12, 12, 0.65);
     padding: 0.5em;
     width: 5em;
@@ -280,7 +280,7 @@ article {
     background-color: rgba(238, 238, 238, 0.8);
     padding: 1.5em;
     font-size: 1.02vw;
-    font-family: ChakraPetchRegular;
+    font-family: "ChakraPetchRegular";
 }
 
 article:nth-of-type(2) {
@@ -307,7 +307,7 @@ footer {
     width: 20em;
     /* font-size: 1vw; */
     text-align: center;
-    font-family: ChakraPetchRegular;
+    font-family: "ChakraPetchRegular";
     color: #fff;
     font-weight: bold;
 }
