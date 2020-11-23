@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'GregorianFLF';
+    font-family: 'Potsdam';
     src: url('fonts/Potsdam.ttf') format('truetype');
     font-family: 'ChakraPetchRegular';
     src: url('fonts/ChakraPetchRegular.ttf') format('truetype');
@@ -82,7 +82,7 @@ ul a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
-    font-family: GregorianFLF;
+    font-family: Potsdam;
     background-color: rgba(12, 12, 12, 0.65);
     padding: 0.5em;
     width: 5em;
