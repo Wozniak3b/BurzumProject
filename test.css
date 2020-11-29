@@ -135,12 +135,20 @@ nav>ul {
 
 #hammenu {
     display: none;
-    margin-top: 0.3em;
-    transition-duration: 1s;
+    width: 100%;
+}
+
+#hammenu a {
+    width: 100%;
+    font-size: 5vw;
 }
 
 #hamburger {
     width: 100%;
+}
+
+.mobile {
+    display: none;
 }
 
 /* 
