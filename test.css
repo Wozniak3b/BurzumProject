@@ -125,25 +125,28 @@ nav {
 nav>ul {
     display: flex;
     list-style: none;
-    /* justify-content: space-around; */
+    justify-content: space-around;
     align-items: center;
 }
 
 #hammenu {
     display: none;
-    /* position: fixed; */
-    /* top: 6%; */
+    position: fixed;
+    left: 0;
+    top: 10%;
+    transition-duration: 1s;
 }
 
 #hamburger {
     width: 100%;
 }
 
+/* 
 nav>ul a {
-    width: 6em;
+    width: 7em;
     background-color: rgba(63, 63, 63, 0.1);
     font-size: 1.4vw;
-}
+} */
 
 
 a:hover {
@@ -151,10 +154,8 @@ a:hover {
     transition-duration: 0.5s;
 }
 
-nav img {
-    width: 20vw;
-    /* margin-top: 0.5em; */
-    /*MUSISZ ZNALEŹĆ INNE ROZWIĄZANIE*/
+#zdj img {
+    width: 60vw;
 }
 
 #zdj {
@@ -166,7 +167,7 @@ nav img {
 
 
 #hamburger>img {
-    width: 3vw;
+    width: 11vw;
 }
 
 main {

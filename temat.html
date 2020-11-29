@@ -13,7 +13,7 @@
     <div class="container2">
         <nav>
             <ul>
-                <li><a id="hamburger" onclick="zmiana();"><img src="img/hamburger.png"></a></li>
+                <li><a id="hamburger" onclick="menu1();"><img src="img/hamburger.png"></a></li>
                 <li><a id="zdj" href="index.html"><img src="img/logo2.png"></a></li>
             </ul>
         </nav>
@@ -79,10 +79,13 @@
     </div>
 
     <script>
-        function menu(){
+        function menu1(){
             let y = document.getElementById("hammenu");
-            y.style.display = "block";
+
+            if(y.style.display="none")
+                y.style.display = "block";
         }
+
     </script>
 </body>
 
