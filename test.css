@@ -350,18 +350,18 @@ footer {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1270px) {
     #lista {
         display: flex;
     }
 
     #lista ul {
-        width: 40%;
+        width: 50%;
         justify-content: space-between;
     }
 
     #lista a {
-        font-size: 1.4vw;
+        font-size: 1.8vw;
     }
 
     #LOGO {
