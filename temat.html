@@ -13,19 +13,18 @@
     <div class="container2">
         <nav>
             <ul>
-                <li><a id="hamburger"><img src="img/hamburger.png"></a>
-                <ul id="hammenu">
-                    <li><a href="temat.html">Temat</a></li>
-                <li><a href="#">Historia</a></li>
-                <li><a href="#">Albumy</a></li>
-                <li><a href="#">Czesc 4</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
-                </ul>
-                </li>
-                
+                <li><a id="hamburger" onclick="zmiana();"><img src="img/hamburger.png"></a></li>
                 <li><a id="zdj" href="index.html"><img src="img/logo2.png"></a></li>
             </ul>
         </nav>
+
+        <ul id="hammenu">
+            <li><a href="temat.html">Temat</a></li>
+            <li><a href="#">Historia</a></li>
+            <li><a href="#">Albumy</a></li>
+            <li><a href="#">Czesc 4</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
 
         <main>
             <section>
@@ -78,6 +77,13 @@
         </main>
         <footer>Author: Jakub Woźniak &copy; 2020r.</footer>
     </div>
+
+    <script>
+        function menu(){
+            let y = document.getElementById("hammenu");
+            y.style.display = "block";
+        }
+    </script>
 </body>
 
 </html>

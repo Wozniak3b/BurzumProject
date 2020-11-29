@@ -131,14 +131,13 @@ nav>ul {
 
 #hammenu {
     display: none;
-    position: relative;
+    /* position: fixed; */
+    /* top: 6%; */
 }
 
 #hamburger {
     width: 100%;
 }
-
-#hamburger:hover {}
 
 nav>ul a {
     width: 6em;
