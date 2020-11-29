@@ -122,18 +122,30 @@ nav {
     width: 100%;
 }
 
-nav ul {
+nav>ul {
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
 }
+
+#hammenu {
+    display: none;
+    position: relative;
+}
+
+#hamburger {
+    width: 100%;
+}
+
+#hamburger:hover {}
 
 nav>ul a {
     width: 6em;
     background-color: rgba(63, 63, 63, 0.1);
     font-size: 1.4vw;
 }
+
 
 a:hover {
     background-color: rgba(163, 163, 163, 0.4);
@@ -151,6 +163,11 @@ nav img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+#hamburger>img {
+    width: 3vw;
 }
 
 main {
