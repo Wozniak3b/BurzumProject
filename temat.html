@@ -87,11 +87,10 @@
         function menu1(){
             let y = document.getElementById("hammenu");
 
-            if(y.style.display="block")
-                y.style.display = "none";
-
-            if(y.style.display="none")
+            if(y.style.display!="block")
                 y.style.display = "block";
+            else
+                y.style.display ="none";
 
         }
 
