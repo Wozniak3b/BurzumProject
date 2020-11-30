@@ -4,11 +4,11 @@ Installing Webfonts
 2. Add this code to your website:
 
 @font-face {
-    font-family: 'OldEnglishFiveOpti';
-    src:url('OldEnglishFiveOpti.ttf.woff') format('woff'),
-        url('OldEnglishFiveOpti.ttf.svg#OldEnglishFiveOpti') format('svg'),
-        url('OldEnglishFiveOpti.ttf.eot'),
-        url('OldEnglishFiveOpti.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-family: 'Manuscript';
+    src:url('Manuscript.ttf.woff') format('woff'),
+        url('Manuscript.ttf.svg#Manuscript') format('svg'),
+        url('Manuscript.ttf.eot'),
+        url('Manuscript.ttf.eot?#iefix') format('embedded-opentype'); 
     font-weight: normal;
     font-style: normal;
 }
@@ -16,7 +16,7 @@ Installing Webfonts
 Add the font name to your CSS styles. For example:
 
 h1 { 
-   font-family: 'OldEnglishFiveOpti';
+   font-family: 'Manuscript';
 }  
 
 Troubleshooting Webfonts
