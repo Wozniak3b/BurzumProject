@@ -193,7 +193,7 @@ main {
     background-color: rgba(238, 238, 238, 0.8);
     flex-direction: column;
     align-items: center;
-    margin-top: 8em;
+    /* margin-top: 1.5em; */
     padding: 0;
     width: 50%;
 
@@ -347,6 +347,11 @@ footer {
         width: 7vw;
     }
 
+    #hammenu a {
+        width: 100%;
+        font-size: 3.5vw;
+    }
+
 }
 
 @media (min-width: 640px) {
@@ -415,6 +420,15 @@ footer {
 
     #LOGO {
         width: 33vw;
+    }
+
+    nav>ul a {
+        width: 7em;
+        font-size: 1.4vw;
+    }
+
+    #zdj {
+        width: 17em;
     }
 
 }
