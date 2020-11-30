@@ -343,6 +343,10 @@ footer {
         font-size: 5vw;
     }
 
+    #hamburger>img {
+        width: 7vw;
+    }
+
 }
 
 @media (min-width: 640px) {
@@ -374,12 +378,28 @@ footer {
         display: block;
     }
 
-    #zdj img {
-        width: 40vw;
+    #zdj {
+        width: 20em;
+    }
+
+    #hamburger {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    nav ul a {
+        font-size: 1.3em;
+    }
+
+    nav ul {
+        flex-wrap: wrap-reverse;
     }
 }
 
-@media (min-width: 1270px) {
+@media (min-width: 1280px) {
     #lista {
         display: flex;
     }
