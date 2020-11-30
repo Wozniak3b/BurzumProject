@@ -169,15 +169,12 @@ a:hover {
     transition-duration: 0.5s;
 }
 
-/* #zdj img {
+#zdj>img {
     width: 60vw;
-} */
+}
 
 #zdj {
-    width: 17em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
 }
 
 
@@ -323,8 +320,6 @@ article:nth-of-type(2) {
 }
 
 aside {
-    /* margin-left: 1.5em; */
-    /* width: 38%; */
     width: 100%;
     margin-top: 1em;
     display: flex;
@@ -405,7 +400,7 @@ audio {
         display: block;
     }
 
-    #zdj {
+    #zdj>img {
         width: 18em;
     }
 
@@ -458,8 +453,8 @@ audio {
         font-size: 1.4vw;
     }
 
-    #zdj {
-        width: 17em;
+    #zdj>img {
+        width: 17vw;
     }
 
     main {
