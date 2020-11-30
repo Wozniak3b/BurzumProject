@@ -400,7 +400,7 @@ footer {
     }
 
     .mobile {
-        display: block;
+        display: flex;
     }
 
     nav ul a {
