@@ -410,6 +410,15 @@ footer {
     nav ul {
         flex-wrap: wrap-reverse;
     }
+
+    main {
+        width: 80%;
+    }
+
+    article {
+        font-size: 2vw;
+    }
+
 }
 
 @media (min-width: 1280px) {
@@ -437,6 +446,24 @@ footer {
 
     #zdj {
         width: 17em;
+    }
+
+    main {
+        width: 75%;
+    }
+
+    article {
+        font-size: 1.02vw;
+    }
+
+    section {
+        width: 60%;
+    }
+
+    aside {
+        width: 35%;
+        margin-top: 0;
+        margin-left: 1.5em;
     }
 
 }
