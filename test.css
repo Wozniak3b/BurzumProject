@@ -181,8 +181,9 @@ a:hover {
 main {
     background-color: rgba(75, 75, 75, 0.6);
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    width: 75%;
+    width: 90%;
     padding: 1em;
     /* margin: auto; */
     margin-top: 1em;
@@ -298,14 +299,14 @@ input {
 }
 
 section {
-    width: 60%;
+    width: 100%;
 }
 
 
 article {
     background-color: rgba(238, 238, 238, 0.8);
     padding: 1.5em;
-    font-size: 1.02vw;
+    font-size: 3vw;
     font-family: "ChakraPetchRegular";
 }
 
@@ -314,8 +315,10 @@ article:nth-of-type(2) {
 }
 
 aside {
-    margin-left: 1.5em;
-    width: 38%;
+    /* margin-left: 1.5em; */
+    /* width: 38%; */
+    width: 100%;
+    margin-top: 1em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -352,6 +355,10 @@ footer {
         font-size: 3.5vw;
     }
 
+    article {
+        font-size: 2.5vw;
+    }
+
 }
 
 @media (min-width: 640px) {
@@ -384,7 +391,7 @@ footer {
     }
 
     #zdj {
-        width: 20em;
+        width: 18em;
     }
 
     #hamburger {
@@ -396,7 +403,7 @@ footer {
     }
 
     nav ul a {
-        font-size: 1.3em;
+        font-size: 1.4em;
     }
 
     nav ul {
