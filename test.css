@@ -149,12 +149,12 @@ nav>ul {
     display: none;
 }
 
-/* 
+
 nav>ul a {
     width: 7em;
     background-color: rgba(63, 63, 63, 0.1);
     font-size: 1.4vw;
-} */
+}
 
 
 a:hover {
