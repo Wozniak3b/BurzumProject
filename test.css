@@ -229,21 +229,50 @@ audio {
 /* ---------------------------------------- */
 
 .menu_flow {
-    position: relative;
+    position: sticky;
     top: 0;
 }
 
 #burzum {
-    background-image: url("img/tla/wallpeper3.png");
+    width: 100%;
+    background-image: url("img/tla/wallpeper8.jpg");
     background-size: auto;
 }
 
-#burzum aside {
+.container2>div aside {
     margin: 0;
 }
 
-#burzum article {
+.container2>div article {
     margin-top: 1em;
+}
+
+.container2>div main {
+    margin-bottom: 1em;
+}
+
+#aske {
+    width: 100%;
+    background-image: url("img/tla/wallpeper9.jpg");
+    background-size: auto;
+}
+
+#detsom {
+    width: 100%;
+    background-image: url("img/tla/wallpeper4.jpg");
+    background-size: auto;
+}
+
+#baldrs {
+    width: 100%;
+    background-image: url("img/tla/wallpeper5.jpg");
+    background-size: auto;
+}
+
+#hlid {
+    width: 100%;
+    background-image: url("img/tla/wallpeper67.jpg");
+    background-size: auto;
 }
 
 
