@@ -263,6 +263,12 @@ audio {
     background-size: auto;
 }
 
+#filosofem {
+    width: 100%;
+    background-image: url("img/tla/wallpeper2.jpg");
+    background-size: auto;
+}
+
 #baldrs {
     width: 100%;
     background-image: url("img/tla/wallpeper5.jpg");
@@ -272,6 +278,12 @@ audio {
 #hlid {
     width: 100%;
     background-image: url("img/tla/wallpeper67.jpg");
+    background-size: auto;
+}
+
+#fallen {
+    width: 100%;
+    background-image: url("img/tla/wallpeper10.jpg");
     background-size: auto;
 }
 
