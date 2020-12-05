@@ -25,13 +25,11 @@
 /* STRONA GŁÓWNA */
 /* -------------------------------------------------- */
 
-body {
+.glowna {
     background-image: url("img/tla/tloo.jpg");
     background-size: auto;
     max-width: 1920px;
-
 }
-
 
 .container {
     /* height: 100vh; */
@@ -43,7 +41,6 @@ body {
 .container1 {
     width: 100%;
 }
-
 
 figure {
     display: flex;
@@ -63,9 +60,6 @@ figure img {
     width: 100%;
 }
 
-/* #LOGO {
-    width: 33vw;
-} */
 ul li {
     list-style: none;
 }
@@ -99,6 +93,12 @@ ul a {
     padding: 1em;
     font-size: 6vw;
 }
+
+/* ---------------------------------------- */
+
+
+/* TEMAT */
+/* ---------------------------------------- */
 
 .container2 {
     display: flex;
@@ -172,10 +172,9 @@ main {
     align-items: center;
     width: 90%;
     padding: 1em;
-    /* margin: auto; */
+    margin: auto;
     margin-top: 1em;
     margin-bottom: 3em;
-
 }
 
 section {
@@ -231,7 +230,14 @@ audio {
 /* ALBUMY */
 /* ---------------------------------------- */
 
+#burzum {
+    background-image: url("img/tla/wallpeper3.png");
+    background-size: auto;
+}
 
+#burzum aside {
+    margin: 0;
+}
 
 
 
