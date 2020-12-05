@@ -249,7 +249,7 @@ audio {
 }
 
 .container2>div main {
-    margin-bottom: 1em;
+    margin-bottom: 5%;
 }
 
 #aske {
@@ -294,9 +294,15 @@ audio {
     background-size: auto;
 }
 
+ol {
+    width: 100%;
+}
+
 ol a {
+    display: block;
     text-decoration: none;
     color: #000;
+    width: 100%;
 }
 
 
@@ -559,7 +565,7 @@ input {
     }
 
     .info {
-        width: 55%;
+        width: 60%;
     }
 
     .container2>div article {
