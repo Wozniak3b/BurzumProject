@@ -168,7 +168,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     width: 90%;
     padding: 1em;
     margin: auto;
@@ -294,8 +294,10 @@ audio {
     background-size: auto;
 }
 
-
-
+ol a {
+    text-decoration: none;
+    color: #000;
+}
 
 
 
@@ -553,25 +555,28 @@ input {
 
     /* ALBUMY */
     .album {
-        width: 30%;
+        width: 35%;
     }
 
-    .container2>div>main {
-        justify-content: space-between;
+    .info {
+        width: 55%;
     }
 
     .container2>div article {
         width: 100%;
     }
 
+    .info article:nth-of-type(1) {
+        margin: 0;
+    }
+
     .container2>div aside {
         width: 100%;
     }
 
-    div>section {
-        width: 67%;
+    .container2>div>main {
+        justify-content: space-between;
     }
-
 
 
 
