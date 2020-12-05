@@ -110,8 +110,6 @@ ul a {
 
 nav {
     background-color: rgba(12, 12, 12, 0.65);
-    /* position: relative; */
-    top: 0;
     width: 100%;
 }
 
@@ -230,6 +228,11 @@ audio {
 /* ALBUMY */
 /* ---------------------------------------- */
 
+.menu_flow {
+    position: relative;
+    top: 0;
+}
+
 #burzum {
     background-image: url("img/tla/wallpeper3.png");
     background-size: auto;
@@ -239,6 +242,9 @@ audio {
     margin: 0;
 }
 
+#burzum article {
+    margin-top: 1em;
+}
 
 
 
