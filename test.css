@@ -168,6 +168,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     width: 90%;
     padding: 1em;
     margin: auto;
@@ -260,6 +261,12 @@ audio {
 #detsom {
     width: 100%;
     background-image: url("img/tla/wallpeper4.jpg");
+    background-size: auto;
+}
+
+#hvis {
+    width: 100%;
+    background-image: url("img/tla/wallpeper11.jpg");
     background-size: auto;
 }
 
@@ -543,5 +550,29 @@ input {
         margin-top: 0;
         margin-left: 2%;
     }
+
+    /* ALBUMY */
+    .album {
+        width: 30%;
+    }
+
+    .container2>div>main {
+        justify-content: space-between;
+    }
+
+    .container2>div article {
+        width: 100%;
+    }
+
+    .container2>div aside {
+        width: 100%;
+    }
+
+    div>section {
+        width: 67%;
+    }
+
+
+
 
 }
