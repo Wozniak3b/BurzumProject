@@ -239,6 +239,11 @@ audio {
     top: 0;
 }
 
+#glowna #hammenu {
+    position: relative;
+    top: 0;
+}
+
 #burzum {
     width: 100%;
 }
