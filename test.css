@@ -308,6 +308,18 @@ audio {
     background-size: auto;
 }
 
+#dephs {
+    width: 100%;
+    background-image: url("img/tla/wallpeper14.jpg");
+    background-size: auto;
+}
+
+#umskiptar {
+    width: 100%;
+    background-image: url("img/tla/wallpeper13.jpg");
+    background-size: auto;
+}
+
 ol {
     width: 100%;
     margin-left: 2%;
