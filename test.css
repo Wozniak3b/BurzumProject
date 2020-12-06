@@ -229,6 +229,11 @@ audio {
 /* ALBUMY */
 /* ---------------------------------------- */
 
+#glowna {
+    background-image: url("img/tla/wallpeper8.jpg");
+    background-size: cover;
+}
+
 .menu_flow {
     position: sticky;
     top: 0;
@@ -236,19 +241,17 @@ audio {
 
 #burzum {
     width: 100%;
-    background-image: url("img/tla/wallpeper8.jpg");
-    background-size: auto;
 }
 
-.container2>div aside {
+#glowna>div aside {
     margin: 0;
 }
 
-.container2>div article {
+#glowna>div article {
     margin-top: 1em;
 }
 
-.container2>div main {
+#glowna>div main {
     margin-bottom: 5%;
 }
 
@@ -568,7 +571,7 @@ input {
         width: 60%;
     }
 
-    .container2>div article {
+    #glowna>div article {
         width: 100%;
     }
 
@@ -576,11 +579,11 @@ input {
         margin: 0;
     }
 
-    .container2>div aside {
+    #glowna>div aside {
         width: 100%;
     }
 
-    .container2>div>main {
+    #glowna>div>main {
         justify-content: space-between;
     }
 
