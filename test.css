@@ -240,7 +240,7 @@ audio {
 }
 
 #glowna #hammenu {
-    position: relative;
+    position: sticky;
     top: 0;
 }
 
@@ -599,7 +599,7 @@ input {
         width: 100%;
     }
 
-    #głowna>div>.info>article:nth-of-type(1) {
+    #glowna .info>article:nth-of-type(1) {
         margin-top: 0;
     }
 
