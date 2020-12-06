@@ -258,6 +258,11 @@ audio {
 
 #glowna>div main {
     margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#glowna>div:nth-of-type(1) main {
+    margin-top: 1em;
 }
 
 #aske {
