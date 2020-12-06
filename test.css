@@ -357,7 +357,7 @@ ol a {
     align-items: center;
     /* margin-top: 1.5em; */
     padding: 0;
-    width: 50%;
+    /* width: 50%; */
 
 }
 
@@ -366,15 +366,15 @@ ol a {
 }
 
 header {
-    font-size: 0.9vw;
+    /* font-size: 0.9vw; */
 }
 
 .formularz>section>img {
-    width: 50vw;
+    /* width: 50vw; */
 }
 
 .formularz header {
-    margin-top: 1.5em;
+    margin-top: 1.5%;
     font-family: "ChakraPetchRegular";
     text-align: center;
 }
@@ -384,9 +384,10 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60%;
+    width: 100%;
     font-family: "ChakraPetchRegular";
-    font-size: 0.8vw;
+    /* font-size: 0.8vw; */
+    font-size: 3vw;
 }
 
 label {
@@ -402,7 +403,8 @@ input {
     font-family: "ChakraPetchRegular";
     padding: 1em;
     width: 100%;
-    font-size: 0.7vw;
+    /* font-size: 0.7vw; */
+    font-size: 2.8vw;
 }
 
 
@@ -412,11 +414,11 @@ input {
     font-family: "ChakraPetchRegular";
     padding: 1em;
     width: 100%;
-    font-size: 0.7vw;
+    font-size: 2.8vw;
 }
 
 #send {
-    font-size: 0.7vw;
+    font-size: 2.8vw;
     font-weight: bold;
     width: 35%;
     padding: 0.6em;
@@ -426,6 +428,7 @@ input {
 
 #wizytowka {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -436,22 +439,24 @@ input {
     padding: 1em;
     margin: 0;
     font-family: "ChakraPetchRegular";
-    width: 37%;
-    font-size: 0.8vw;
+    /* width: 37%; */
+    width: 100%;
+    /* font-size: 0.8vw; */
+    font-size: 3vw;
 }
 
 #wizytowka p {
     box-shadow: 10px 7px 10px rgba(12, 12, 12, 0.37);
     background-color: rgba(255, 255, 255, 0.3);
     padding: 1em;
-    width: 90%;
+    /* width: 90%; */
     margin-bottom: 2em;
     text-align: center;
 }
 
 #wizytowka figure {
     box-shadow: 10px 7px 10px rgba(12, 12, 12, 0.37);
-    width: 90%;
+    /* width: 90%; */
     margin-bottom: 1em;
 }
 
