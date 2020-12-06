@@ -355,22 +355,12 @@ ol a {
     background-color: rgba(238, 238, 238, 0.8);
     flex-direction: column;
     align-items: center;
-    /* margin-top: 1.5em; */
     padding: 0;
-    /* width: 50%; */
 
 }
 
 .formularz>section {
     width: 100%;
-}
-
-header {
-    /* font-size: 0.9vw; */
-}
-
-.formularz>section>img {
-    /* width: 50vw; */
 }
 
 .formularz header {
@@ -386,7 +376,6 @@ form {
     align-items: center;
     width: 100%;
     font-family: "ChakraPetchRegular";
-    /* font-size: 0.8vw; */
     font-size: 3vw;
 }
 
@@ -403,13 +392,11 @@ input {
     font-family: "ChakraPetchRegular";
     padding: 1em;
     width: 100%;
-    /* font-size: 0.7vw; */
     font-size: 2.8vw;
 }
 
 
 #com {
-    /* height: 10vh; */
     resize: none;
     font-family: "ChakraPetchRegular";
     padding: 1em;
@@ -439,29 +426,25 @@ input {
     padding: 1em;
     margin: 0;
     font-family: "ChakraPetchRegular";
-    /* width: 37%; */
     width: 100%;
-    /* font-size: 0.8vw; */
-    font-size: 3vw;
 }
 
 #wizytowka p {
     box-shadow: 10px 7px 10px rgba(12, 12, 12, 0.37);
     background-color: rgba(255, 255, 255, 0.3);
     padding: 1em;
-    /* width: 90%; */
+    font-size: 3vw;
     margin-bottom: 2em;
     text-align: center;
 }
 
 #wizytowka figure {
     box-shadow: 10px 7px 10px rgba(12, 12, 12, 0.37);
-    /* width: 90%; */
     margin-bottom: 1em;
 }
 
 #ja {
-    object-fit: fill;
+    width: 100%;
 }
 
 /* ----------------------------------------- */
@@ -485,6 +468,32 @@ input {
         font-size: 2.5vw;
     }
 
+    /* ----------------------------------------- */
+
+    /*KONTAKT*/
+    /* ----------------------------------------- */
+
+    form {
+        font-size: 2.5vw;
+    }
+
+    input {
+        font-size: 2.3vw;
+    }
+
+    #com {
+        font-size: 2.5vw;
+    }
+
+    #send {
+        font-size: 2.3vw;
+    }
+
+    #wizytowka p {
+        font-size: 2.5vw;
+    }
+
+    /* ----------------------------------------- */
 }
 
 @media (min-width: 640px) {
@@ -544,6 +553,32 @@ input {
         font-size: 2vw;
     }
 
+    /* ----------------------------------------- */
+
+    /*KONTAKT*/
+    /* ----------------------------------------- */
+
+    form {
+        font-size: 2vw;
+    }
+
+    input {
+        font-size: 1.8vw;
+    }
+
+    #com {
+        font-size: 2vw;
+    }
+
+    #send {
+        font-size: 1.8vw;
+    }
+
+    #wizytowka p {
+        font-size: 2vw;
+    }
+
+    /* ----------------------------------------- */
 }
 
 @media (min-width: 1280px) {
@@ -591,7 +626,11 @@ input {
         margin-left: 2%;
     }
 
+    /* ----------------------------------------- */
+
     /* ALBUMY */
+    /* ----------------------------------------- */
+
     .album {
         width: 35%;
     }
@@ -617,6 +656,40 @@ input {
         align-items: flex-start;
     }
 
+    /* ----------------------------------------- */
 
+    /*KONTAKT*/
+    /* ----------------------------------------- */
+
+    .formularz {
+        width: 45%;
+    }
+
+    form {
+        font-size: 1.02vw;
+        width: 60%;
+    }
+
+    input {
+        font-size: 0.8vw;
+    }
+
+    #com {
+        font-size: 0.8vw;
+    }
+
+    #send {
+        font-size: 0.8vw;
+    }
+
+    #wizytowka aside {
+        width: 35%;
+    }
+
+    #wizytowka p {
+        font-size: 0.8vw;
+    }
+
+    /* ----------------------------------------- */
 
 }
