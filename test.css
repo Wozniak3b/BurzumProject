@@ -226,6 +226,18 @@ audio {
 /* ---------------------------------------- */
 
 
+/* KONTAKT */
+/* ---------------------------------------- */
+
+h4 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+/* ---------------------------------------- */
+
+
 /* ALBUMY */
 /* ---------------------------------------- */
 
@@ -265,64 +277,68 @@ audio {
     margin-top: 1em;
 }
 
+#glowna>div:last-of-type main {
+    margin-bottom: 3em;
+}
+
 #aske {
     width: 100%;
     background-image: url("img/tla/wallpeper9.jpg");
-    background-size: auto;
+    background-size: cover;
 }
 
 #detsom {
     width: 100%;
     background-image: url("img/tla/wallpeper4.jpg");
-    background-size: auto;
+    background-size: cover;
 }
 
 #hvis {
     width: 100%;
     background-image: url("img/tla/wallpeper11.jpg");
-    background-size: auto;
+    background-size: cover;
 }
 
 #filosofem {
     width: 100%;
     background-image: url("img/tla/wallpeper2.jpg");
-    background-size: auto;
+    background-size: cover;
 }
 
 #baldrs {
     width: 100%;
     background-image: url("img/tla/wallpeper5.jpg");
-    background-size: auto;
+    background-size: cover;
 }
 
 #hlid {
     width: 100%;
     background-image: url("img/tla/wallpeper67.jpg");
-    background-size: auto;
+    background-size: cover;
 }
 
 #belus {
     width: 100%;
     background-image: url("img/tla/wallpeper12.jpeg");
-    background-size: auto;
+    background-size: cover;
 }
 
 #fallen {
     width: 100%;
     background-image: url("img/tla/wallpeper10.jpg");
-    background-size: auto;
+    background-size: cover;
 }
 
 #dephs {
     width: 100%;
     background-image: url("img/tla/wallpeper14.jpg");
-    background-size: auto;
+    background-size: cover;
 }
 
 #umskiptar {
     width: 100%;
     background-image: url("img/tla/wallpeper13.jpg");
-    background-size: auto;
+    background-size: cover;
 }
 
 ol {
@@ -337,7 +353,7 @@ ol a {
     width: 100%;
 }
 
-
+/* ---------------------------------------- */
 
 
 /* KONTAKT */
@@ -659,6 +675,10 @@ input {
     #glowna>div>main {
         justify-content: space-between;
         align-items: flex-start;
+    }
+
+    #glowna>div:last-of-type main {
+        margin-bottom: 5%;
     }
 
     /* ----------------------------------------- */
