@@ -229,9 +229,21 @@ audio {
 /* KONTAKT */
 /* ---------------------------------------- */
 
+#historia {
+    width: 100%;
+    background-image: url("img/tla/wallpeper1.jpg");
+    background-size: cover;
+}
+
 h4 {
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+#historia figure {
+    padding: 1em;
+    margin-top: 1em;
+    background-color: rgba(27, 27, 27, 0.6);
 }
 
 
@@ -646,6 +658,29 @@ input {
         margin-top: 0;
         margin-left: 2%;
     }
+
+    /* ----------------------------------------- */
+
+    /* ALBUMY */
+    /* ----------------------------------------- */
+
+    #historia section {
+        width: 100%;
+    }
+
+    #historia article {
+        width: 100%;
+    }
+
+    #mayhem {
+        width: 70%;
+    }
+
+    .zdjecia {
+        display: flex;
+    }
+
+
 
     /* ----------------------------------------- */
 
