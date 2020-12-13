@@ -686,6 +686,7 @@ input {
 
     .zdjecia {
         display: flex;
+        justify-content: space-between;
     }
 
 
