@@ -235,6 +235,14 @@ audio {
     background-size: cover;
 }
 
+#historia article {
+    margin-top: 1em;
+}
+
+#historia section:nth-of-type(1) article:nth-of-type(1) {
+    margin-top: 0;
+}
+
 h4 {
     margin-top: 2%;
     margin-bottom: 2%;
