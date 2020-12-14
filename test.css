@@ -605,11 +605,6 @@ input {
     /*HISTORIA*/
     /* ----------------------------------------- */
 
-    #film1 {
-        display: flex;
-        justify-content: center;
-    }
-
     embed {
         height: 25em;
     }
