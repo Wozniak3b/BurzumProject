@@ -28,6 +28,8 @@
 .glowna {
     background-image: url("img/tla/tloo.jpg");
     background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     max-width: 1920px;
 }
 
@@ -232,7 +234,9 @@ audio {
 #historia {
     width: 100%;
     background-image: url("img/tla/wallpeper1.jpg");
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
 }
 
 #historia article {
@@ -270,6 +274,8 @@ embed {
 #glowna {
     background-image: url("img/tla/wallpeper8.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .menu_flow {
@@ -311,60 +317,80 @@ embed {
     width: 100%;
     background-image: url("img/tla/wallpeper9.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #detsom {
     width: 100%;
     background-image: url("img/tla/wallpeper4.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #hvis {
     width: 100%;
     background-image: url("img/tla/wallpeper11.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #filosofem {
     width: 100%;
     background-image: url("img/tla/wallpeper2.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #baldrs {
     width: 100%;
     background-image: url("img/tla/wallpeper5.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #hlid {
     width: 100%;
     background-image: url("img/tla/wallpeper67.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #belus {
     width: 100%;
     background-image: url("img/tla/wallpeper12.jpeg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #fallen {
     width: 100%;
     background-image: url("img/tla/wallpeper10.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #dephs {
     width: 100%;
     background-image: url("img/tla/wallpeper14.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #umskiptar {
     width: 100%;
     background-image: url("img/tla/wallpeper13.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 ol {
